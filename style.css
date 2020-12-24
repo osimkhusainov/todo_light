@@ -20,16 +20,25 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
 }
+
 .block__list{
     padding: 10px;
 }
 .block__button-delete{
     margin-left: 10px;
+    z-index: 1;
     border-radius: 5px;
     background-color: rgb(201, 66, 66);
     color: white;
     height: 30px;
     width: 70px;
     cursor: pointer;
+}
+
+.task_done{
+    background-color: rgb(201, 66, 66);
+    color: gray;
 }
